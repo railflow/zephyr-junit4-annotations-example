@@ -1,6 +1,4 @@
-package io.demo.railflow;
-
-import static io.demo.railflow.Utils.runTest;
+package io.railflow.demo;
 
 import java.util.Arrays;
 
@@ -18,26 +16,26 @@ public class PaymentsTest {
 		CurrentTest.setName("User had valid CC");
 		CurrentTest.setLabels(Arrays.asList("CC"));
 		System.out.println("Checking if the user has valid CC");
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void user_has_invalid_cc() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void an_error_occurred_during_transaction() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void user_cancels_transaction() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void notification_message_is_correct() {
-		runTest();
+		Utils.runTest();
 	}
 }

@@ -1,6 +1,4 @@
-package io.demo.railflow;
-
-import static io.demo.railflow.Utils.runTest;
+package io.railflow.demo;
 
 import org.junit.Ignore;
 import org.junit.Test;
@@ -20,7 +18,7 @@ public class LoginFormTest {
 
 	@Test
 	public void login_correct_credentials() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Railflow(name = "name from method", labels = { "testThree", "testFour" }, priority = "Low", smartFailureAssignment = "user3@company.io", caseFields = {
@@ -32,24 +30,24 @@ public class LoginFormTest {
 							@CustomField(name = "method step field 2", value = "method step value 2") })
 	@Test
 	public void login_error_incorrect_username() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void login_error_incorrect_password() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Railflow(zephyrKeys = { "ZT-1", "ZT-2", "ZT-3" })
 	@Test
 	public void login_rememberMe_is_checked() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Ignore("not yet implemented")
 	@Test
 	public void login_failed_service_unavailable() {
-		runTest();
+		Utils.runTest();
 	}
 
 }

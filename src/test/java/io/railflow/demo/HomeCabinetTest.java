@@ -1,6 +1,4 @@
-package io.demo.railflow;
-
-import static io.demo.railflow.Utils.runTest;
+package io.railflow.demo;
 
 import org.junit.Test;
 
@@ -11,26 +9,26 @@ public class HomeCabinetTest {
 
 	@Test
 	public void change_password() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void change_password_fail_on_incorrect_confirmation() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void change_password_fail_on_incorrect_password() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void change_email() {
-		runTest();
+		Utils.runTest();
 	}
 
 	@Test
 	public void change_email_fail_on_invalid_email() {
-		runTest();
+		Utils.runTest();
 	}
 }

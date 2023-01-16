@@ -1,4 +1,4 @@
-package io.demo.railflow;
+package io.railflow.demo;
 
 /**
  * @author Sergey Oplavin

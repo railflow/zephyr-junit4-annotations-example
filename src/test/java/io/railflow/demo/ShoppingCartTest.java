@@ -1,6 +1,6 @@
-package io.demo.railflow;
+package io.railflow.demo;
 
-import static io.demo.railflow.Utils.runTest;
+import static io.railflow.demo.Utils.runTest;
 
 import org.junit.Test;
 
