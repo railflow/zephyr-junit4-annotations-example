@@ -6,7 +6,7 @@
 
     <groupId>io.railflow.demo</groupId>
     <artifactId>zephyr_junit4_annotations_example</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
